@@ -174,7 +174,7 @@ public class MainFrame extends JFrame {
         for (Weapon w : controller.getWeapons()) {
             String tag;
             if (w instanceof MeleeWeapon) {
-                tag = "[М] ";
+                tag = "[Б] ";
             } else {
                 tag = "[Д] ";
             }

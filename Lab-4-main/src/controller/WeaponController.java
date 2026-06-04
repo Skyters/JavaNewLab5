@@ -70,5 +70,4 @@ public class WeaponController {
 
     public Weapon getSelectedWeapon() { return selectedWeapon; }
     public List<Weapon> getWeapons()  { return arsenal.getWeapons(); }
-    public int getWeaponCount()       { return arsenal.getWeaponCount(); }
 }
