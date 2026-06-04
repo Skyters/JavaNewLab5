@@ -16,15 +16,6 @@ public class RangeWeapon extends Weapon {
         this.accuracy = accuracy;
     }
 
-    public RangeWeapon(RangeWeapon other) {
-        super(other);
-        this.ammunition = other.ammunition;
-        this.accuracy = other.accuracy;
-    }
-
-    public int getAmmunition() { return ammunition; }
-    public int getAccuracy()   { return accuracy; }
-
     @Override
     public AttackResult attack(int distance) {
         if (isBroken() && ammunition == 0) {

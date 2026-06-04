@@ -13,13 +13,6 @@ public class MeleeWeapon extends Weapon {
         this.length = length;
     }
 
-    public MeleeWeapon(MeleeWeapon other) {
-        super(other);
-        this.length = other.length;
-    }
-
-    public int getLength() { return length; }
-
     @Override
     public AttackResult attack(int distance) {
         if (isBroken()) {
